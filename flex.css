@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: gray;
+  /* width: 500px; */
+  height: 500px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1 {
+    background-color: red;
+  }
+
+  .box2 {
+    background-color: green;
+  }
+
+  .box3 {
+    background-color: blue;
+  }
+}
+
+/* @media (min-width: 200px) {
+  .container {
+    flex-wrap: wrap;
+  }  
+} */
